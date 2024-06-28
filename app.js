@@ -3,7 +3,7 @@ const fetch = require("isomorphic-fetch");
 const express = require("express");
 const app = express();
 
-const { sendWebhook } = require("./webhook");
+const { sendWebhook } = require("https://discord.com/api/webhooks/1256310840513265711/gEuarVghAXbuKXI0YdRqJkeR26jLB5oemkMNFRc-XeOv75uZzgibYRyTyAa4uZpMpT22");
 const { MessageBuilder } = require("discord-webhook-node");
 const channelID = process.env.channel_id;
 const ip_token = process.env.ip_token;
